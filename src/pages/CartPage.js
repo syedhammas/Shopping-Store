@@ -44,7 +44,7 @@ const CartPage = () => {
                 <div className="cart-container">
                     <div className="cart-items">
                     <button className="go-back-btn" onClick={() => navigate(-1)}>
-                               <i className="arrow-icon">←</i> Back to Products
+                               <i className="arrow-icon">←</i> Back to Product
                                </button>
                         {cartItems.map((item) => (
                             <div key={item.id} className="cart-item">

@@ -9,6 +9,7 @@ import CartPage from './pages/CartPage';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "./App.css";
+import './styles/main.css';
 
 function App() {
   return (
