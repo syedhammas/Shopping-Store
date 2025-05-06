@@ -1,0 +1,23 @@
+my-shopping-store
+├── src
+│   ├── components
+│   │   ├── Cart.js
+│   │   ├── CartItem.js
+│   │   └── CartSummary.js  
+│   ├── containers
+│   │   ├── CartPage.js
+│   │   └── ProductDetails.js
+│   ├── redux
+│   │   ├── actions
+│   │   │   ├── cartActions.js
+│   │   │   └── productActions.js
+│   │   ├── reducers
+│   │   │   ├── cartReducer.js
+│   │   │   └── index.js
+│   │   └── store.js
+│   ├── styles
+│   │   └── Cart.css
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
